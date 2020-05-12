@@ -1,4 +1,4 @@
-package com.leetcode.one.twenty;
+package com.leetcode.twentyone.fourty;
 
 /**
  *  Definition for singly-linked list.
