@@ -59,6 +59,7 @@ public class TwentySeven {
         //标记判断值的位置
         int q = 0;
 
+
         while (q <= nums.length - 1) {
             if (nums[q] != val) {
                 nums[p] = nums[q];
