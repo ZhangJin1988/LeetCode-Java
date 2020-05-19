@@ -31,15 +31,14 @@ public class TwentyEight {
     public int strStr(String haystack, String needle) {
 
 
-        if (needle.equals("") || needle.length() == 0 ) {
+        if (needle.equals("") || needle.length() == 0) {
             return 0;
         }
 
 
-        if (  needle!=null &&  haystack.length() >= needle.length() ) {
+        if (needle != null && haystack.length() >= needle.length()) {
             char[] haystackChars = haystack.toCharArray();
             char[] needleChars = needle.toCharArray();
-
 
 
             for (int i = 0; i + needleChars.length - 1 < haystackChars.length; i++) {
@@ -56,14 +55,14 @@ public class TwentyEight {
 
 
         }
-            return -1;
+        return -1;
 
     }
 
     public static void main(String[] args) {
 
 
-        int i = new TwentyEight().strStr("","");
+        int i = new TwentyEight().strStr("", "");
         System.out.println(i);
     }
 
